@@ -9,7 +9,7 @@ function pileouface(){
         if (joueur === ordi) {
             ladiv.innerHTML = "Vous gagnez"
         }
-        else if ( joueur != ordi) {
+        else {
             ladiv.innerHTML = "vous perdez"
         }
     }
